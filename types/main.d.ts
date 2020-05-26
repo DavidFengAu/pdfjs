@@ -1,4 +1,4 @@
-declare module "pdfjs" {
+declare module "@bgl/pdfjs" {
     export class Image {
         /**
          * Creates a new image that can be added to one or multiple documents.
@@ -629,74 +629,74 @@ declare module "pdfjs" {
     export type ImageAlignment = "left" | "right" | "center";
 }
 
-declare type Font = import("pdfjs").Font;
+declare type Font = import("@bgl/pdfjs").Font;
 
-declare module "pdfjs/font/Courier-Bold" {
+declare module "@bgl/pdfjs/font/Courier-Bold" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Courier-BoldOblique" {
+declare module "@bgl/pdfjs/font/Courier-BoldOblique" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Courier-Oblique" {
+declare module "@bgl/pdfjs/font/Courier-Oblique" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Courier" {
+declare module "@bgl/pdfjs/font/Courier" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Helvetica-Bold" {
+declare module "@bgl/pdfjs/font/Helvetica-Bold" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Helvetica-BoldOblique" {
+declare module "@bgl/pdfjs/font/Helvetica-BoldOblique" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Helvetica-Oblique" {
+declare module "@bgl/pdfjs/font/Helvetica-Oblique" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Helvetica" {
+declare module "@bgl/pdfjs/font/Helvetica" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Symbol" {
+declare module "@bgl/pdfjs/font/Symbol" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Times-Bold" {
+declare module "@bgl/pdfjs/font/Times-Bold" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Times-BoldItalic" {
+declare module "@bgl/pdfjs/font/Times-BoldItalic" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Times-Italic" {
+declare module "@bgl/pdfjs/font/Times-Italic" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/Times-Roman" {
+declare module "@bgl/pdfjs/font/Times-Roman" {
     const font: Font;
     export = font;
 }
 
-declare module "pdfjs/font/ZapfDingbats" {
+declare module "@bgl/pdfjs/font/ZapfDingbats" {
     const font: Font;
     export = font;
 }
