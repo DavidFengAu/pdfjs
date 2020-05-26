@@ -1,15 +1,14 @@
 {
-  "name": "pdfjs",
-  "author": "Markus Ast <npm.m@rkusa.st>",
-  "version": "2.3.8",
+  "name": "@bgl/pdfjs",
+  "version": "2.3.8-3",
   "description": "A Portable Document Format (PDF) generation library targeting both the server- and client-side.",
   "keywords": [
     "pdf",
     "generator"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/rkusa/pdfjs",
-  "bugs": "https://github.com/rkusa/pdfjs/issues",
+  "homepage": "https://github.com/DavidFengAu/pdfjs",
+  "bugs": "https://github.com/DavidFengAu/pdfjs/issues",
   "main": "lib/",
   "scripts": {
     "test": "npm run test:pdfs && npm run test:types",
@@ -31,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rkusa/pdfjs.git"
+    "url": "git://github.com/DavidFengAu/pdfjs.git"
   },
   "engines": {
     "node": ">=7"
